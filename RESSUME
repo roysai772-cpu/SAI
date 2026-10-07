@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+	<style>
+		.headings{
+			color: lightgreen;
+			font-family: cursive;
+			background-color: black; }
+	</style>
+</head>
+<body>
+<h1 class="headings">This is first heading</h1>
+	<fieldset>
+<legend>User personal information</legend>
+<label>Enter your full name</label><br>
+<input type="text" name="name"><br>
+<label>Enter your email</label><br>
+<input type="email" name="email"><br>
+<label>Enter your password</label><br>
+<input type="password" name="name"><br>
+<label>confirm your password</label><br>
+<input type="password" name="pass"><br>
+<label>User id: </label>
+<input type="text" name="user-id" value="User">
+	<label>Password: </label>
+	<input type="password" name="pass" value="pass"><br><br>
+<br><label>Enter your gender</label><br>
+<input type="radio" id="gender" name="gender" value="male"/>Male <br>
+<input type="radio" id="gender" name="gender" value="female"/>Female <br/>
+<input type="radio" id="gender" name="gender" value="others"/>others <br/>
+<br>Enter your Address:<br>
+<textarea></textarea><br>
+<input type="submit" value="sign-up">
+</fieldset>
+</form>
+</body>
+</html>
